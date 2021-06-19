@@ -64,7 +64,7 @@ def buttonEq():
     if flag == 4:
         try:
             numplay.insert(0, num1 / float(num2))
-        except:
+        except ZeroDivisionError:
             numplay.delete(0, END)
             numplay.insert(0, "Divison by 0 not possible!")
         else:
