@@ -4,8 +4,8 @@ My python practice projects
 2) calculator.py - A simple calculator, developed using python
 3) Library Management - A simple library management application, developed using python
 
-   1)database.db
+   1) database.db
 
-   2)database.py
+   2) database.py
 
-   3)finalExecutable.py
+   3) finalExecutable.py
