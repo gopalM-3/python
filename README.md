@@ -6,6 +6,6 @@ My python practice projects
 
    1) database.db
 
-   2) database.py
+   2) libDatabase.py
 
    3) finalExecutable.py
