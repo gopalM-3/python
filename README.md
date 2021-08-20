@@ -9,3 +9,5 @@ My python practice projects
    2) libDatabase.py
 
    3) finalExecutable.py
+
+4) *Discord Bot* - A personal bot made for my server, developed using python
