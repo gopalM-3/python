@@ -98,3 +98,4 @@ async def on_message(message):
 
 keepAlive()
 client.run(os.getenv("noice"))
+# noice is the bot token, highly confidential :)
