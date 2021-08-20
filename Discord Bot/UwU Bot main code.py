@@ -18,6 +18,9 @@ encWords = [
   "Cheer up bud!", "Hey, I can talk to you...", "It's not bad to feel sad sometimes :)", "Why so serious? (Joker ref dude, cheer up!)", "Buckle up fam!", "Brooo! Cheer up!", "Dude, Cheer up!", "You're a great person to talk to, cheer up!"
 ]
 
+bestWords = ["best", "great"]
+bestReply = ["I know that I'm the best, thank you. Credit to my creator."]
+
 grayWords = ["gray", "jans"]
 grayReply = ["Gray is the best!", "Gray goes cray cray..."]
 
@@ -68,6 +71,9 @@ async def on_message(message):
   if any(word in message.content for word in spamWord):
     await message.channel.send(random.choice(spamReply))
   
+  if any(word in message.content for word in bestWords):
+    await message.channel.send(random.choice(bestReply))
+  
   if any(word in message.content for word in grayWords):
     await message.channel.send(random.choice(grayReply))
   
@@ -98,4 +104,3 @@ async def on_message(message):
 
 keepAlive()
 client.run(os.getenv("noice"))
-# noice is the bot token, highly confidential :)
