@@ -34,7 +34,7 @@ jeevWords = ["jeev"]
 jeevReply = ["Jeeb niceuuu"]
 
 lalaWords = ["lala", "luli"]
-lalaReply = ["Luli cutu", "Luli!"]
+lalaReply = ["Lala", "Luli!"]
 
 spamWord = ["anthey le", "anthe le"]
 spamReply = ["Buddy!", "Enough buddy...", "Bruh"]
